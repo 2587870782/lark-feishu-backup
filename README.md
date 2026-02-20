@@ -1,7 +1,3 @@
-# lark-feishu-backup
-基于飞书官方 API 实现的云文档批量下载工具。突破客户端仅支持逐个下载的限制，支持一键导出 Word (.docx)、PPT (.pptx) 及 Excel (.xlsx) 格式，配置简单。
-
-
 # 飞书云文档全量备份（基于 user_access_token）
 
 这是一个用于**全量备份飞书云文档**的 Python 脚本项目。程序会从指定入口递归遍历文档节点，并把可导出的资源下载到本地目录，适合个人资料归档、迁移留存与周期性离线备份。
@@ -193,5 +189,6 @@ python3 get_initial_refresh_token.py
 - `index.meta.json`：工程入口元信息
 
 这些文件不会影响主脚本运行，但有助于协作与问题定位。
+
 
 
