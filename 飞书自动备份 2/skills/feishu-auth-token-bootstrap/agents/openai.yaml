@@ -1,4 +1,0 @@
-interface:
-  display_name: "飞书授权与令牌初始化"
-  short_description: "处理授权链接、回调换 token、token_store 校验与重置流程"
-  default_prompt: "使用 $feishu-auth-token-bootstrap 处理 refresh_token 初始化或失效重置。"

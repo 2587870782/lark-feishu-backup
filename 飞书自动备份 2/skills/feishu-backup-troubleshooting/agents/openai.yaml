@@ -1,4 +1,0 @@
-interface:
-  display_name: "飞书备份排障决策"
-  short_description: "定位导出失败、权限不足、限频超时及降级下载相关问题"
-  default_prompt: "使用 $feishu-backup-troubleshooting 排查 1069902、1069923 或导出失败问题。"

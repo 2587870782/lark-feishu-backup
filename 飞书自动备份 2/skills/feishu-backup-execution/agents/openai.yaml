@@ -1,4 +1,0 @@
-interface:
-  display_name: "飞书备份执行与验收"
-  short_description: "执行全量备份、切换 source、判读输出统计与退出码结果"
-  default_prompt: "使用 $feishu-backup-execution 运行并验收一次飞书全量备份。"
